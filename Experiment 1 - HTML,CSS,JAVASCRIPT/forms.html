@@ -1,0 +1,73 @@
+<html>
+<head>
+<title>Registration form</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<body>
+<h1>Register here</h1>
+<form name="f1" action="valid.php" method="post">
+<table class="t">
+<tr><td>Name</td>
+<td><input type="text" name="name" placeholder="enter your name" required="required"/>
+</td>
+</tr>
+<tr><td>email</td>
+<td><input type="email" name="eid" placeholder="enter mail" required="required"/>
+</td>
+</tr>
+<tr><td>Password</td>
+<td><input type="password" name="pwd" placeholder="enter strong password" required="required"/>
+</td>
+</tr>
+<tr><td>DOB</td>
+<td><input type="data" name="dob" placeholder="dd/mm/yyyy" required="required"/>
+</td>
+</tr>
+<tr><td>Mobile number</td>
+<td><input type="text" name="mobile number" maxlength="10" placeholder="7842******" required="required"/>
+</td>
+</tr>
+<tr>
+<td>Gender</td>
+<td>
+<input type="radio" name="Gender" value="Female" required="required"/>Female
+<input type="radio" name="Gender" value="Male" required="required"/>Male
+</td></tr>
+<tr>
+<td>Address<br/ ><br/ ><br/ ></td>
+<td><textarea name="Address" rows="10" cols="50" required="required"/></textarea></td>
+</tr>
+<tr>
+<td>City</td>
+<td><input type="text" name="city" maxlength="50" placeholder="visakhapatnam" required="required"/>
+</td>
+</tr>
+<tr>
+<td> Pin code</td>
+<td><input type="Number" name="pincode" maxlength="6" placeholder="560068" required="required"/>
+</td>
+</tr>
+<tr>
+<td>Country</td>
+<td><input type="text" name="Country" placeholder="India" required="required"/></td>
+</tr>
+<tr>
+<td> Branch</td>
+<td>
+<input type="radio" name="Branch" value="CSE" required="required"/>CSE
+<input type="radio" name="Branch" value="ECE" required="required"/>ECE
+<input type="radio" name="Branch" value="EEE" required="required"/>EEE
+<input type="radio" name="Branch" value="Civil" required="required"/>Civil
+<input type="radio" name="Branch" value="Mech" required="required"/>Mech
+</td></tr>
+<tr>
+<td colspan="2" align="center" >
+<input type="submit" value="submit" >
+<input type="Reset" value="Reset" >
+</td>
+</tr>
+</table>
+</form>
+</body>
+</html>
+

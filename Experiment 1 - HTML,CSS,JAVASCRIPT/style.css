@@ -1,0 +1,44 @@
+body{
+    text-align:center;
+    background-image: url("images/bg-3.jpg");
+    background-repeat: no-repeat;
+    background-size: 1100px 1100px;
+    }
+    h1{
+    font-family:verdana;
+    font-size:60px;
+    font-style:normal;
+    font-weight:bold;
+    color:red;
+    text-align:center
+    text-decoration:underline
+    }
+    table{
+    font-family:verdana;
+    color:dark;
+    font-size:16px;
+    font-style:normal;
+    font-weight:bold;
+    background:pink;
+    border-collapse:collapse;
+    border:4px solid #000000;
+    border-style:solid;
+    }
+    table.inner{
+    border:10px;
+    }
+    input[type=text],input[type=email],input[type=number],input[type=data],input[type=password]{
+    width:50%;
+    padding:6px 12px;
+    margin:5px 0;
+    box-sizing:border-box;
+    }
+    .t{
+      margin-left: auto;
+      margin-right: auto;
+    }
+    input[type=submit],input[type=reset]{
+    margin:5px 5px;
+    background:green;}
+    
+    
